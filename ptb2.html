@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		a=prompt('nhap a')
+		b=prompt('nhap b')
+		c=prompt('nhap c')
+		d=b*b-4*a*c
+		if(d<0)
+		{
+			document.writeln('vo nghiem')
+		}
+		else if (d>0)
+		{
+			document.writeln('x1= '+ (-b+Math.sqrt(d) /2*a)+'<br>' )
+			document.writeln('x2= '+ (-b-Math.sqrt(d) /2*a)+'<br>') 
+		}
+		else
+		{
+			document.writeln('x='+ -b/2*a)
+		}
+	</script>
+</body>
+</html>
